@@ -1,0 +1,21 @@
+{
+  "model": "amazon.titan-embed-text-v2:0",
+  "dims": 512,
+  "n_train": 20000,
+  "eval_sample": {
+    "n": 1000,
+    "accuracy": 0.611,
+    "macro_f1": 0.3385,
+    "weighted_f1": 0.5869
+  },
+  "tfidf_same_train_eval_sample": {
+    "n": 1000,
+    "accuracy": 0.693,
+    "macro_f1": 0.4173,
+    "weighted_f1": 0.6676
+  },
+  "tokens_paid_this_run": 0,
+  "tokens_per_1000_lots": 63934,
+  "cost_usd_per_1000_lots": 0.012787,
+  "embed_seconds_this_run": 0.5
+}

@@ -1,0 +1,5 @@
+{
+  "_note": "USD per 1,000 tokens in eu-central-1. Fill from https://aws.amazon.com/bedrock/pricing/ and save as prices.json. Keys are the exact model IDs you run.",
+  "eu.amazon.nova-lite-v1:0": {"input_per_1k": null, "output_per_1k": null},
+  "amazon.titan-embed-text-v2:0": {"input_per_1k": null}
+}

@@ -1,0 +1,15 @@
+{
+  "model": "eu.amazon.nova-lite-v1:0",
+  "eval_sample": {
+    "n": 1000,
+    "accuracy": 0.474,
+    "macro_f1": 0.2694,
+    "weighted_f1": 0.4827
+  },
+  "invalid_answers": 0,
+  "input_tokens_per_1000_lots": 1286167,
+  "output_tokens_per_1000_lots": 4085,
+  "cost_usd_per_1000_lots": 0.101596,
+  "median_latency_ms": 266.0,
+  "run_seconds": 668.9
+}

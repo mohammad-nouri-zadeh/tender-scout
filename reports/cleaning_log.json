@@ -1,0 +1,22 @@
+{
+  "raw_rows": 349306,
+  "raw_cigs": 344285,
+  "rows_per_cig_gt1": 5021,
+  "cigs_without_prevalent_cpv": 1,
+  "cigs_without_prevalent_cpv_examples": [
+    "B0DCC538FA"
+  ],
+  "cigs_with_several_prevalent_rows": 0,
+  "cpv_not_available_dropped": 1800,
+  "invalid_cpv_dropped": 0,
+  "empty_text_dropped": 0,
+  "text_shorter_than_5_chars_kept": 97,
+  "lots": 342484,
+  "classes": 45,
+  "rows_per_split": {
+    "test": 117774,
+    "val": 114238,
+    "train": 110472
+  },
+  "lots_per_tender_months_gt1": 1
+}
