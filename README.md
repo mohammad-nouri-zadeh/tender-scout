@@ -3,7 +3,7 @@
 Do you need an LLM to classify Italian public tenders? This project compares a classic model, embeddings and a
 zero-shot LLM on Amazon Bedrock, on the same data, by accuracy and by cost.
 
-![TF-IDF + linear SVM 74.5%, Titan embeddings + logistic regression 61.1%, zero-shot Nova Lite 47.4% of lots in the right category](docs/results.png)
+![Classic ML 74.5%, embeddings 61.1% and an LLM with no training 47.4% of lots in the right category; per category, the LLM falls behind most in travel (4% vs 91%), legal and business (33% vs 77%) and engineering services (31% vs 75%)](docs/results.png)
 
 Companies that bid on public tenders need to send each new tender to the right team. Here every lot published
 on ANAC's open data is classified into its CPV division (45 classes, e.g. 33 = medical equipment,
