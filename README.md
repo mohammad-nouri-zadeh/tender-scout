@@ -134,4 +134,7 @@ Code: MIT (`LICENSE`). Data and the derived files in `reports/`: ANAC open data,
 
 ## How this was built
 
-The data exploration was done hands-on in a notebook.
+This is my project. I picked the problem and explored the ANAC files hands-on in a notebook, and most of the
+data decisions above come from what I found there: the firewall and the broken downloads, lots with several CPV
+codes, tenders that stay within one month, the dominant medical category and the repeated titles. The Bedrock
+runs use my own AWS account, and the pipeline, tests and CI make every number in this README reproducible.
